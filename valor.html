@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversão de preços</h1>
+        <h2>Convertendo valor para peso</h2>
+        <form>
+            <div class="item">
+                <label for="Kilo">Valor do kilo</label>
+                <input type="text" id="kg">
+            </div>
+
+            <div class="item">
+                <label for="Valor">Valor</label>
+                <input type="text" id="rs">
+            </div>
+
+
+
+            <div class="item">
+                <input type="button" value="Calcular" onclick="calcularValor()">
+            </div>
+
+        </form>
+
+        <h3 id="resultado">
+            <span id="result"></span>
+        </h3>
+
+        <a class="btn bottom" href="index.html">
+            🠔 Voltar
+        </a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
